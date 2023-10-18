@@ -19,4 +19,4 @@ app.get("/", (req, res) => {
   return res.sendFile("/public/index.html");
 });
 
-server.listen(9000, () => console.log("server started"));
+server.listen(8000, () => console.log("server started"));
